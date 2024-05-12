@@ -3,18 +3,18 @@ import styles from './index.module.css';
 
 const Home = () => {
   const [samplePosition, setSamplePosition] = useState(0);
-  // const [bombMap, setBoard] = State([
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  //   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  // ]);
-  // const [userInputs, ] = State([])
+  const [bombMap, setBoard] = State([
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  ]);
+  const [userInputs] = State([]);
   console.log(samplePosition);
   return (
     <div className={styles.container}>
