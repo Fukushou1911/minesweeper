@@ -26,6 +26,7 @@ const Home = () => {
         </div>
         <div className={styles.board}>
           <div className={styles.cell} />
+          <div className={styles.masses} />
         </div>
       </div>
     </div>

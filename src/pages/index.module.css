@@ -8,11 +8,11 @@
   padding: 0 0.5rem;
 }
 
-/* .sampleStyle {
+.masses {
   width: 30px;
   height: 30px;
   background: url('~/src/assets/images/icons.png') no-repeat;
-} */
+}
 
 .flame {
   display: flex;
