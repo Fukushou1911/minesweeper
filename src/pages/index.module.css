@@ -8,7 +8,7 @@
   padding: 0 0.5rem;
 }
 
-.masses {
+.number {
   width: 30px;
   height: 30px;
   background: url('~/src/assets/images/icons.png') no-repeat;
@@ -20,8 +20,8 @@
   justify-content: center;
   width: 300px;
   height: 390px;
-  background-color: #999;
-  border: 2px solid #888;
+  background-color: #c6c6c6;
+  border: 2px solid #808080;
 }
 
 .informationBoard {
@@ -29,8 +29,8 @@
   width: 270px;
   height: 75px;
   margin-top: 12.5px;
-  background-color: #999;
-  border: 2px solid #888;
+  background-color: #c6c6c6;
+  border: 2px solid #808080;
 }
 
 .flagBoard {
@@ -39,8 +39,8 @@
   height: 45px;
   margin-top: 12.5px;
   margin-left: 10px;
-  background-color: #999;
-  border: 2px solid #888;
+  background-color: #c6c6c6;
+  border: 2px solid #808080;
 }
 
 .statusBoard {
@@ -49,8 +49,8 @@
   height: 45px;
   margin-top: 12.5px;
   margin-left: 27px;
-  background-color: #999;
-  border: 2px solid #888;
+  background-color: #c6c6c6;
+  border: 2px solid #808080;
 }
 
 .timeBoard {
@@ -59,16 +59,17 @@
   height: 45px;
   margin-top: 12.5px;
   margin-left: 27px;
-  background-color: #999;
-  border: 2px solid #888;
+  background-color: #c6c6c6;
+  border: 2px solid #808080;
 }
 
 .board {
   display: flex;
-  width: 270px;
-  height: 270px;
-  background-color: #999;
-  border: 2px solid #888;
+  flex-wrap: wrap;
+  width: 274px;
+  height: 274px;
+  background-color: #c6c6c6;
+  border: 2px solid #808080;
 }
 
 .cell {
@@ -77,5 +78,5 @@
   justify-content: center;
   width: 30px;
   height: 30px;
-  border: 2px solid #888;
+  border: 2px solid #808080;
 }
