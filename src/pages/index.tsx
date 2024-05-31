@@ -16,9 +16,7 @@ const Home = () => {
   // const [samplePosition, setSamplePosition] = useState(0);
   // const [bombMap, setBoard] = useState(nomrmalBord(0));
   // const [userInputs] = useState([]);
-  // console.log(samplePosition);
-  const board: number[][] = nomrmalBord(-1);
-  console.table(board);
+  const board = [...Array(9)].map((_, y) => [...Array(9)].map((_, x) => ((y + x + 1) % 13) - 1));
   return (
     <div className={styles.container}>
       <div className={styles.flame}>
@@ -30,37 +28,15 @@ const Home = () => {
           <div className={styles.timeBoard} />
         </div>
         <div className={styles.board}>
-          {board.map(() => (
-            <>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-              <div className={styles.cell}>
-                <div className={styles.number} />
-              </div>
-            </>
-          ))}
+          {board.map((row, y) =>
+            row.map((number, x) => (
+              <div
+                className={number === -1 ? styles.cell : styles.number}
+                style={{ backgroundPositionX: 30 - 30 * number }}
+                key={`${y}-${x}`}
+              />
+            )),
+          )}
         </div>
       </div>
     </div>
