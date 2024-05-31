@@ -31,7 +31,7 @@ const Home = () => {
           {board.map((row, y) =>
             row.map((number, x) => (
               <div
-                className={number === -1 ? styles.cell : styles.number}
+                className={number === -2 ? styles.cell : styles.number}
                 style={{ backgroundPositionX: 30 - 30 * number }}
                 key={`${y}-${x}`}
               />
