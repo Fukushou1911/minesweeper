@@ -14,6 +14,12 @@
   background: url('~/src/assets/images/icons.png') no-repeat;
 }
 
+.statusNumber {
+  width: 30px;
+  height: 30px;
+  background: url('~/src/assets/images/icons.png') no-repeat;
+}
+
 .flame {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +45,7 @@
   height: 45px;
   margin-top: 12.5px;
   margin-left: 10px;
-  background-color: #c6c6c6;
+  background-color: black;
   border: 2px solid #808080;
 }
 
@@ -59,7 +65,7 @@
   height: 45px;
   margin-top: 12.5px;
   margin-left: 27px;
-  background-color: #c6c6c6;
+  background-color: black;
   border: 2px solid #808080;
 }
 

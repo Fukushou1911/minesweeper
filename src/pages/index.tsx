@@ -24,7 +24,9 @@ const Home = () => {
       <div className={styles.flame}>
         <div className={styles.informationBoard}>
           <div className={styles.flagBoard} />
-          <div className={styles.statusBoard} />
+          <div className={styles.statusBoard}>
+            <div className={styles.statusNumber} />
+          </div>
           <div className={styles.timeBoard} />
         </div>
         <div className={styles.board}>
